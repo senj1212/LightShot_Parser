@@ -2,7 +2,7 @@
 ## Требования
 * Python 3.x
 ### Установленные библиотеки
-* pip install time
+* pip install lxml
 * pip install requests
 * pip install random2
 * pip install beautifulsoup4
