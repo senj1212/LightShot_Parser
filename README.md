@@ -1,4 +1,3 @@
-## LightShot_Parser
 # Парсер картинок из LightShot
 Python 3.x
 ##Установка библиотек
