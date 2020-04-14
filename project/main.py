@@ -1,18 +1,11 @@
 import func
 import threading
 
-ip = '163.172.182.164'
-port = '3128'
-utf = '{0}:{1}'.format(ip, port)
-proxies = {
-'http' : 'http://'+utf,
-'https' : 'https://'+utf
-}
 def scren():
     flow = func.Img()
     while True:
         try:
-            page_r, url_two = flow.go_to_url(proxies)
+            page_r, url_two = flow.go_to_url()
             if 'has banned your IP' in page_r:
                 print('Ip в бане.')
             else:

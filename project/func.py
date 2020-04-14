@@ -8,7 +8,7 @@ headers = {
 }
 
 class Img():
-    def go_to_url(self, proxies):
+    def go_to_url(self):
         url_two = ''
         url_one = "https://prnt.sc/"
         for i in range(0, 6):
