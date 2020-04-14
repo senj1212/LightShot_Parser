@@ -1,7 +1,7 @@
-# LightShot_Parser
-Парсер картинок из LightShot
+## LightShot_Parser
+#Парсер картинок из LightShot
 Python 3.x
-Установка библиотек 
+Установка библиотек
 pip install requests
 pip install random
 pip install beautifulsoup4
