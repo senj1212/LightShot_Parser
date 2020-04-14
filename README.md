@@ -5,5 +5,4 @@
 * pip install requests
 * pip install random2
 * pip install beautifulsoup4
-* pip install time
 * pip install threaded
